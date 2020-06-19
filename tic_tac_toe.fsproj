@@ -4,7 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="./src/Turn.fs" />
+    <Compile Include="./src/DomainType/DomainType.fs" />
+    <Compile Include="./src/Common/Common.fs" />
+    <Compile Include="./src/Validation/Common.fs" />
+    <Compile Include="./src/Validation/PlayValidation.fs" />
+    <Compile Include="./src/Validation/InputValidation.fs" />
+    <Compile Include="./src/IO/IO.fs" />
+    <Compile Include="./src/GameRule/GameRule.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>
